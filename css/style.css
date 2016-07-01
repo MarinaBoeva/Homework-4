@@ -1,0 +1,129 @@
+body {
+  background-image: url(../img/background.png);
+  background-repeat: repeat-x;
+  height: 100%;
+}
+.wrapper {
+  display:block;
+  min-height: 1000px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 0 1px;
+  background-color: white;
+  box-shadow: 1px -4px 13px 0px rgba(120,114,120,1);
+}
+
+.logo img {
+  position:relative;
+  left: 30px;
+  top: 30px;
+  float: left;
+}
+.info {
+  text-align: left;
+  float: right;
+  color: #3393ae;
+  margin: 10px 0 0 0;
+  width: 160px;
+  padding-right: 30px;
+}
+.info ul li {
+  list-style: none;
+}
+.info ul li:first-child{
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.country {
+  display: block;
+  width: auto;
+  text-align: center;
+  font-size: 10px;
+  position: relative;
+  top:120px;
+  right: -150px;
+  float:right;
+  margin: 5px;
+}
+.photo img {
+  margin-top: 30px;
+  border-top: 2px solid #138aa7;
+  border-bottom: 2px solid #138aa7;
+}
+.menu {
+  padding:0 30px;
+  list-style: none;
+  height: 30px;
+  background-image: linear-gradient(to bottom right, #313131, #373737);
+  border-bottom: 2px solid black;
+}
+.menu li {
+  list-style: none;
+  height: 30px;
+  width: 120px;
+  float: left;
+  font-size: 14px;
+  padding:8px 5px 8px;
+  margin-right: 1px;
+  position: relative;
+  z-index: 1;
+}
+.menu li a {
+  display: block;
+  height: 100%;
+  width: 120px;
+  color: white;
+  text-decoration: none;
+}
+.menu li ul{
+  display: none;
+  position:relative;
+  margin: 0;
+  width: 120px;
+  background-image: linear-gradient(to bottom right, #313131, #373737);
+}
+.menu li ul li {
+float:none;
+display: block;
+padding: 8px 0 8px;
+font-size: 14px;
+width: 120px;
+}
+.menu li:hover ul{
+display: block;
+}
+
+.sidebar {
+float:left;
+margin-top:-14px;
+width: 20%;
+background-color: #edeef0;
+border: 1px solid #c7cacf;
+min-height: 520px;
+}
+.sidebar h1 {
+  margin: 10px;
+}
+.content {
+float:left;
+width: 59%;
+
+}
+.news{
+  float: right;
+  margin-top:-14px;
+  width: 20%;
+  background-color: #edeef0;
+  border: 1px solid #c7cacf;
+  min-height: 520px;
+}
+.news  h1 {
+  margin: 10px;
+}
+.footer p {
+  text-align: center;
+  color: white;
+  display:inline-block;
+  height: 34px;
+}
