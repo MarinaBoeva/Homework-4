@@ -106,8 +106,10 @@ min-height: 520px;
   margin: 10px;
 }
 .content {
+position: relative;
 float:left;
 width: 59%;
+overflow: hidden;
 
 }
 .news{
