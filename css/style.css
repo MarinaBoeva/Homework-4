@@ -36,7 +36,7 @@ body {
   margin-bottom: 8px;
 }
 .country {
-  display: block;
+  display:inline-block;
   width: auto;
   text-align: center;
   font-size: 10px;
@@ -44,6 +44,10 @@ body {
   top:120px;
   right: -150px;
   float:right;
+}
+.country li {
+  list-style: none;
+  display: inline-block;
   margin: 5px;
 }
 .photo img {
@@ -58,7 +62,7 @@ body {
   background-image: linear-gradient(to bottom right, #313131, #373737);
   border-bottom: 2px solid black;
 }
-.menu li {
+.menu li{
   list-style: none;
   height: 30px;
   width: 120px;
@@ -92,8 +96,9 @@ width: 120px;
 }
 .menu li:hover ul{
 display: block;
+position: relative;
+top:-6px;
 }
-
 .sidebar {
 float:left;
 margin-top:-14px;
