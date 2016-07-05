@@ -8,7 +8,6 @@ body {
   min-height: 1000px;
   width: 1000px;
   margin: 0 auto;
-  margin-bottom: 30px;
   padding: 0 1px;
   background-color: white;
   box-shadow: 1px -4px 13px 0px rgba(120,114,120,1);
@@ -133,4 +132,5 @@ overflow: hidden;
   color: white;
   display:inline-block;
   height: 34px;
+  padding-top: 3px;
 }
