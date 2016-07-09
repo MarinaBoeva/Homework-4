@@ -107,9 +107,10 @@ width: 20%;
 background-color: #edeef0;
 border: 1px solid #c7cacf;
 min-height: 520px;
+line-height: 25px;
 }
 .sidebar h1 {
-  margin: 10px;
+  margin: 8px;
 }
 .content {
 position: relative;
@@ -125,9 +126,10 @@ overflow: hidden;
   background-color: #edeef0;
   border: 1px solid #c7cacf;
   min-height: 520px;
+  line-height: 25px;
 }
 .news  h1 {
-  margin: 10px;
+  margin: 8px;
 }
 .footer p {
   text-align: center;
